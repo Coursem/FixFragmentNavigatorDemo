@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AFragment">
+
+<!--    <fixFragment-->
+    <fragment
+        android:id="@+id/AFragment"
+        android:name="com.yuezhi.myfragmentnavigatordemo.fragment.AFragment"
+        android:label="第一"
+        tools:layout="@layout/fragment_a"/>
+    <fragment
+        android:id="@+id/BFragment"
+        android:name="com.yuezhi.myfragmentnavigatordemo.fragment.BFragment"
+        android:label="第二"
+        tools:layout="@layout/fragment_b"/>
+    <fragment
+        android:id="@+id/CFragment"
+        android:name="com.yuezhi.myfragmentnavigatordemo.fragment.CFragment"
+        android:label="第三"
+        tools:layout="@layout/fragment_c"/>
+    <fragment
+        android:id="@+id/DFragment"
+        android:name="com.yuezhi.myfragmentnavigatordemo.fragment.DFragment"
+        android:label="第四"
+        tools:layout="@layout/fragment_d"/>
+    <fragment
+        android:id="@+id/EFragment"
+        android:name="com.yuezhi.myfragmentnavigatordemo.fragment.EFragment"
+        android:label="第五"
+        tools:layout="@layout/fragment_e"/>
+</navigation>

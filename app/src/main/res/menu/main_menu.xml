@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/AFragment"
+        android:title="第一个" />
+
+    <item
+        android:id="@+id/BFragment"
+        android:title="第二个" />
+
+    <item
+        android:id="@+id/CFragment"
+        android:title="第三个" />
+
+    <item
+        android:id="@+id/DFragment"
+        android:title="第四个" />
+
+    <item
+        android:id="@+id/EFragment"
+        android:title="第五个" />
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyFragmentNavigatorDemo</string>
+    <string name="a">afragment</string>
+    <string name="b">bfragment</string>
+    <string name="c">cfragment</string>
+    <string name="d">dfragment</string>
+    <string name="e">efragment</string>
+</resources>
